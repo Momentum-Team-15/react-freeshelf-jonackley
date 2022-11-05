@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+    padding: 25px;
+}
+
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+h2 {
+   font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4 {
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif';
+}
+.info {
+    border: 2px solid black;
+    padding: 25px;
+}
+
