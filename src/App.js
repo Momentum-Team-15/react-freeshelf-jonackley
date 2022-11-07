@@ -18,7 +18,7 @@ const App = ({bookData}) => {
             </div>
 
             <div className='cover-container'>
-              <img className='cover' src={detail.coverImageUrl} alt='book-cover' />
+              <img className='cover' src={detail.coverImageUrl} />
             </div>
           </div>      
       ))}
