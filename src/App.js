@@ -21,7 +21,7 @@ const App = ({bookData}) => {
               <img className='cover' src={detail.coverImageUrl} alt='book-cover' />
             </div>
           </div>      
-      )
+      ))}
     </section>
   )
 }
@@ -38,23 +38,19 @@ const BookSection = ({ publisher, publicationDate, description, url }) => {
           {readMore ? '✂︎ Less' : '☀︎ More'} Data
         </button>
       </div>
-      {expanded &&
+      {readMore &&
         <div>
           <br></br>
           URL: <a href={url}>{url}</a>
           {publisher && (<p>Publisher: {publisher}</p>)}
-          {pubDate && (<p>PublicationDate: {publicationDate}</p>)}
-          <p>Full description: {description}</p>
+          {publicationDate && (<p>Date of Publication: {publicationDate}</p>)}
+          <p>Detailed Description: {description}</p>
         </div>
       }
     </div>
   )
 }
-   
-
-    </div>
- 
-    }
+     
 
 
 
